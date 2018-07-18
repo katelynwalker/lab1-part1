@@ -1,3 +1,4 @@
+@media only screen and (min-width:480px){
 *{
     font-family:'Open Sans', sans-serif;
 }
@@ -100,7 +101,47 @@ nav p{
     right:50%;
     bottom:10px;
     text-align:center;
-   
-
-
+}
+}
+@media only screen and (max-width:480px){
+    *{
+        font-family:'Open Sans', sans-serif;
+    } 
+    body{
+        background-color:#f9fafc;
+    }
+    #links{
+        margin-left:20px;
+        color:#69696a; 
+    }
+    #links p:last-child{
+        color:white;
+        background-color:black;
+        text-align:center;
+        padding:10px;
+        border-radius:20px;
+       
+    }  
+    
+    #logo {
+        font-weight:bold;
+        margin-left:20px;
+    }
+    #scroll p{
+        color:white;
+        background-color:black;
+        text-align:center;
+        padding:10px;
+        border-radius:20px;
+        margin-left:20px;
+       
+    } 
+    #column1 p {
+        border-left:2px solid #69696a;
+        padding-left:10px;
+        color:#69696a;  
+        margin-left:20px;
+}
+#column1 h1{
+    margin-left:20px;
 }
